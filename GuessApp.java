@@ -1,8 +1,10 @@
+package mackpkg.games.guess;
+
 /*
  * Programmer: Alex Mack
- * Program: Guess Application
+ * Program: Guessing Game
  * Date/Time: 11/6/2014 @ 6:07 PM
- * Modified: 1/12/2015 @ 12:50 AM
+ * Modified: 1/20/2015 @ 9:54 PM
  */
 
 
@@ -15,7 +17,7 @@ private static final Random randNums = new Random();
 	
 	public static void StartGuessing(){
 		
-                Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 		int guess;
 		int number;
 		int tries = 6;
@@ -59,6 +61,8 @@ private static final Random randNums = new Random();
 		}
 		else
 		   System.out.println("You're terrible at this game!");
+
+                System.out.printf("%c 2015 Alex Mack\n\n", 169);
 			
 	}
 
